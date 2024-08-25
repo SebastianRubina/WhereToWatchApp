@@ -1,0 +1,13 @@
+//
+//  Config.xcconfig
+//  WhereToWatch
+//
+//  Created by Sebastián Rubina on 2024-08-25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+SA_API_KEY=5460c4588amshef55483c67139d5p14654fjsnc2bd7bd4bb52
+ADMOB_APP_ID=ca-app-pub-1374379418900946~1359857395
+ADMOB_BANNER_AD_ID=ca-app-pub-1374379418900946/3395726317

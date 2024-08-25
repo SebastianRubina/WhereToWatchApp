@@ -11,6 +11,21 @@
 		F67D2D332C7AF45000BC2243 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D2D322C7AF45000BC2243 /* ContentView.swift */; };
 		F67D2D352C7AF45100BC2243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67D2D342C7AF45100BC2243 /* Assets.xcassets */; };
 		F67D2D382C7AF45100BC2243 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67D2D372C7AF45100BC2243 /* Preview Assets.xcassets */; };
+		F67D2D412C7AF49C00BC2243 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D2D402C7AF49C00BC2243 /* Country.swift */; };
+		F67D2D432C7AF4A500BC2243 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D2D422C7AF4A500BC2243 /* Show.swift */; };
+		F67D2D462C7AF4F100BC2243 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = F67D2D452C7AF4F100BC2243 /* GoogleMobileAds */; };
+		F67D2D492C7AF50300BC2243 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D2D482C7AF50300BC2243 /* BannerView.swift */; };
+		F67D2D4B2C7AF50900BC2243 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D2D4A2C7AF50900BC2243 /* BannerViewController.swift */; };
+		F67D2D4E2C7AF51600BC2243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D2D4D2C7AF51600BC2243 /* AppDelegate.swift */; };
+		F67D2D512C7AF55300BC2243 /* ColorHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D2D502C7AF55300BC2243 /* ColorHelpers.swift */; };
+		F67D2D542C7AF57C00BC2243 /* CountryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D2D532C7AF57C00BC2243 /* CountryService.swift */; };
+		F67D2D562C7AF58600BC2243 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D2D552C7AF58600BC2243 /* MovieService.swift */; };
+		F67D2D592C7AF5B200BC2243 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D2D582C7AF5B200BC2243 /* MoviesViewModel.swift */; };
+		F67D2D5E2C7AF62C00BC2243 /* TopShowPlatformPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D2D5D2C7AF62C00BC2243 /* TopShowPlatformPicker.swift */; };
+		F67D2D602C7AF68A00BC2243 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D2D5F2C7AF68A00BC2243 /* OnboardingView.swift */; };
+		F67D2D622C7AF6E200BC2243 /* SearchResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D2D612C7AF6E200BC2243 /* SearchResultsView.swift */; };
+		F67D2D642C7AF6F600BC2243 /* ShowCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D2D632C7AF6F600BC2243 /* ShowCardView.swift */; };
+		F67D2D662C7AF71600BC2243 /* ShowDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D2D652C7AF71600BC2243 /* ShowDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +34,22 @@
 		F67D2D322C7AF45000BC2243 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F67D2D342C7AF45100BC2243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F67D2D372C7AF45100BC2243 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F67D2D402C7AF49C00BC2243 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		F67D2D422C7AF4A500BC2243 /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		F67D2D482C7AF50300BC2243 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		F67D2D4A2C7AF50900BC2243 /* BannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
+		F67D2D4D2C7AF51600BC2243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F67D2D502C7AF55300BC2243 /* ColorHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelpers.swift; sourceTree = "<group>"; };
+		F67D2D532C7AF57C00BC2243 /* CountryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryService.swift; sourceTree = "<group>"; };
+		F67D2D552C7AF58600BC2243 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		F67D2D582C7AF5B200BC2243 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		F67D2D5A2C7AF5DB00BC2243 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		F67D2D5D2C7AF62C00BC2243 /* TopShowPlatformPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopShowPlatformPicker.swift; sourceTree = "<group>"; };
+		F67D2D5F2C7AF68A00BC2243 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F67D2D612C7AF6E200BC2243 /* SearchResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsView.swift; sourceTree = "<group>"; };
+		F67D2D632C7AF6F600BC2243 /* ShowCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCardView.swift; sourceTree = "<group>"; };
+		F67D2D652C7AF71600BC2243 /* ShowDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailsView.swift; sourceTree = "<group>"; };
+		F67D2D672C7AF74800BC2243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F67D2D462C7AF4F100BC2243 /* GoogleMobileAds in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +83,18 @@
 		F67D2D2F2C7AF45000BC2243 /* WhereToWatch */ = {
 			isa = PBXGroup;
 			children = (
+				F67D2D672C7AF74800BC2243 /* Info.plist */,
+				F67D2D572C7AF5A500BC2243 /* ViewModels */,
+				F67D2D522C7AF56C00BC2243 /* Services */,
+				F67D2D4F2C7AF54A00BC2243 /* Helpers */,
+				F67D2D4C2C7AF50F00BC2243 /* Delegates */,
+				F67D2D472C7AF4F900BC2243 /* Admob */,
+				F67D2D3F2C7AF48800BC2243 /* Models */,
+				F67D2D3E2C7AF45B00BC2243 /* Views */,
 				F67D2D302C7AF45000BC2243 /* WhereToWatchApp.swift */,
-				F67D2D322C7AF45000BC2243 /* ContentView.swift */,
 				F67D2D342C7AF45100BC2243 /* Assets.xcassets */,
 				F67D2D362C7AF45100BC2243 /* Preview Content */,
+				F67D2D5A2C7AF5DB00BC2243 /* Config.xcconfig */,
 			);
 			path = WhereToWatch;
 			sourceTree = "<group>";
@@ -65,6 +105,86 @@
 				F67D2D372C7AF45100BC2243 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F67D2D3E2C7AF45B00BC2243 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F67D2D5B2C7AF61B00BC2243 /* Components */,
+				F67D2D322C7AF45000BC2243 /* ContentView.swift */,
+				F67D2D5F2C7AF68A00BC2243 /* OnboardingView.swift */,
+				F67D2D612C7AF6E200BC2243 /* SearchResultsView.swift */,
+				F67D2D632C7AF6F600BC2243 /* ShowCardView.swift */,
+				F67D2D652C7AF71600BC2243 /* ShowDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F67D2D3F2C7AF48800BC2243 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F67D2D402C7AF49C00BC2243 /* Country.swift */,
+				F67D2D422C7AF4A500BC2243 /* Show.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F67D2D472C7AF4F900BC2243 /* Admob */ = {
+			isa = PBXGroup;
+			children = (
+				F67D2D482C7AF50300BC2243 /* BannerView.swift */,
+				F67D2D4A2C7AF50900BC2243 /* BannerViewController.swift */,
+			);
+			path = Admob;
+			sourceTree = "<group>";
+		};
+		F67D2D4C2C7AF50F00BC2243 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				F67D2D4D2C7AF51600BC2243 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		F67D2D4F2C7AF54A00BC2243 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F67D2D502C7AF55300BC2243 /* ColorHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F67D2D522C7AF56C00BC2243 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F67D2D532C7AF57C00BC2243 /* CountryService.swift */,
+				F67D2D552C7AF58600BC2243 /* MovieService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F67D2D572C7AF5A500BC2243 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F67D2D582C7AF5B200BC2243 /* MoviesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F67D2D5B2C7AF61B00BC2243 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F67D2D5C2C7AF61F00BC2243 /* Inputs */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F67D2D5C2C7AF61F00BC2243 /* Inputs */ = {
+			isa = PBXGroup;
+			children = (
+				F67D2D5D2C7AF62C00BC2243 /* TopShowPlatformPicker.swift */,
+			);
+			path = Inputs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +203,9 @@
 			dependencies = (
 			);
 			name = WhereToWatch;
+			packageProductDependencies = (
+				F67D2D452C7AF4F100BC2243 /* GoogleMobileAds */,
+			);
 			productName = WhereToWatch;
 			productReference = F67D2D2D2C7AF45000BC2243 /* WhereToWatch.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +234,9 @@
 				Base,
 			);
 			mainGroup = F67D2D242C7AF45000BC2243;
+			packageReferences = (
+				F67D2D442C7AF4F100BC2243 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
 			productRefGroup = F67D2D2E2C7AF45000BC2243 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +263,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F67D2D542C7AF57C00BC2243 /* CountryService.swift in Sources */,
+				F67D2D5E2C7AF62C00BC2243 /* TopShowPlatformPicker.swift in Sources */,
+				F67D2D662C7AF71600BC2243 /* ShowDetailsView.swift in Sources */,
+				F67D2D4B2C7AF50900BC2243 /* BannerViewController.swift in Sources */,
+				F67D2D492C7AF50300BC2243 /* BannerView.swift in Sources */,
 				F67D2D332C7AF45000BC2243 /* ContentView.swift in Sources */,
+				F67D2D592C7AF5B200BC2243 /* MoviesViewModel.swift in Sources */,
+				F67D2D562C7AF58600BC2243 /* MovieService.swift in Sources */,
+				F67D2D412C7AF49C00BC2243 /* Country.swift in Sources */,
+				F67D2D4E2C7AF51600BC2243 /* AppDelegate.swift in Sources */,
+				F67D2D622C7AF6E200BC2243 /* SearchResultsView.swift in Sources */,
+				F67D2D432C7AF4A500BC2243 /* Show.swift in Sources */,
+				F67D2D642C7AF6F600BC2243 /* ShowCardView.swift in Sources */,
 				F67D2D312C7AF45000BC2243 /* WhereToWatchApp.swift in Sources */,
+				F67D2D602C7AF68A00BC2243 /* OnboardingView.swift in Sources */,
+				F67D2D512C7AF55300BC2243 /* ColorHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +287,7 @@
 /* Begin XCBuildConfiguration section */
 		F67D2D392C7AF45100BC2243 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F67D2D5A2C7AF5DB00BC2243 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -210,6 +351,7 @@
 		};
 		F67D2D3A2C7AF45100BC2243 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F67D2D5A2C7AF5DB00BC2243 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -275,11 +417,14 @@
 				DEVELOPMENT_TEAM = T65WQ4R2H2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhereToWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Where To Watch? - Movie Finder!";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +432,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sebastianrubina.WhereToWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,11 +453,14 @@
 				DEVELOPMENT_TEAM = T65WQ4R2H2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhereToWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Where To Watch? - Movie Finder!";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +468,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sebastianrubina.WhereToWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -344,6 +500,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F67D2D442C7AF4F100BC2243 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F67D2D452C7AF4F100BC2243 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F67D2D442C7AF4F100BC2243 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F67D2D252C7AF45000BC2243 /* Project object */;
 }
